@@ -1,0 +1,115 @@
+*{ /* Space for beganning of the web page */
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+ul{ /* display in the right side in the Navigation Bar*/
+	float: right;
+	list-style-type:none;
+	margin-right:25px;
+}
+
+ul li { /* display in the same line in the Navigation Bar */
+	display:inline-block;
+}
+
+ul li a{ /* Navigation Bar */
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px ;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{ /* Navigation Bar */
+	background-color:#fff;
+	color:#000;
+}
+ul li.active a{ /* Navigation Bar */
+	background-color:#fff;
+	color:#000;
+}
+.dropdown-content { /*  Menu bar for dishes */
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a { /*  Menu bar for dishes */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover { /*  Menu bar for dishes */
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content { /*  Menu bar for dishes */
+  display: block;
+}
+	
+.logo img{ /* for image logo */
+	float:left;
+	width: 150px;
+	height:auto;
+}
+
+.main{ /*  for image logo */
+	max-width:1200px;
+	margin:auto;
+}
+
+ body{ /* style for the body of the page */
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resturant.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+        font-family: italic;
+	font-size: 20px;
+}
+
+ form{
+	position:relative;
+	z-index: 1;
+	background-color:rgba(171, 160, 197,0.8);
+	max-width:700px;
+	margin: 0 auto 100px;
+	padding : 45px;
+	text-align: center;
+}
+
+.coupon { /*  The border for each image */
+  border-color: yellowgreen;
+  border-width: 5px;
+  border-style: dotted dashed solid double;
+  background-color:white;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container { 
+  padding: 2px 16px;
+  background-color: lightgray;
+}
+
+.expire {
+  color: red;
+}
+
+footer { /* style footer for the page */
+  background-color:rgba(171, 160, 197,0.8);
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
